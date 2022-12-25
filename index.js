@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 dotenv.config();
 
+//i know this should be in .env file but for simplicity i pasted here i will change my password
 mongoose
   .connect(
     "mongodb+srv://indra16:9826391787@cluster0.8q4fmwf.mongodb.net/?retryWrites=true&w=majority",
